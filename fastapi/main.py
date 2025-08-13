@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
+import duckdb
 
 app = FastAPI()
 
@@ -32,4 +33,5 @@ async def read_hello():
 
 if __name__ == "__main__":
     import uvicorn
+    print(duckdb.__version__)
     uvicorn.run(app, host="0.0.0.0", port=8000)
