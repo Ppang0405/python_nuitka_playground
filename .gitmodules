@@ -1,0 +1,6 @@
+[submodule "pytest-fastapi-crud-example"]
+	path = pytest-fastapi-crud-example
+	url = https://github.com/truongnguyen3/pytest-fastapi-crud-example.git
+[submodule "nuitka-docker-example"]
+	path = nuitka-docker-example
+	url = https://github.com/truongnguyen3/nuitka-docker-example.git
